@@ -4,11 +4,11 @@ This repository contains Python codes for solving the given programming problems
 # 1. NORMALIZATION PROBLEM 
 Library: numpy as np 
 
-Description: It is a Python library used for working arrays. Type "import numpy as np" to activate the NumPy library. 
+Description: It is a Python Library used for working arrays. Type "import numpy as np" to activate the NumPy library. 
 
 Function: np.random.random((5, 5)) 
 
-Description: This function is used to generate a 5x5 array of random numbers between 0 - 1. 
+Description: This function generates a 5x5 array of random numbers between 0 - 1. 
 
 Function: X.mean and X.std 
 
@@ -33,16 +33,16 @@ Library: numpy as np
 
 Function: A = np.arange(1, 101).reshape(10, 10) ** 2
 
-Description: This function generates an array with numbers from 1-100 and makes it a 10x10 array with the '.reshape(10, 10)' function and squaring the elements with '** 2' to produce the array that is asked with the given problem. 
+Description: This function generates an array with numbers from 1-100, making it a 10x10 array with the '.reshape(10, 10)' function and squaring the elements with '** 2' to produce the array that is asked with the given problem. 
 
 Function: div_by_3 = A[A % 3 == 0]
 
-Description: This function is used to determine the elements that are divisible by 3 with the given array. It generates a boolean mask that, for elements divisible by 3, is 'True'. An array of those elements is obtained by applying this mask to 'A'.
+Description: This function determines the divisible elements by 3 with the given array. It generates a boolean mask that, for elements divisible by 3, is 'True.' An array of those elements is obtained by applying this mask to 'A.'
 
 Function: np.save('div_by_3.npy', div_by_3) 
 
 Description: This function saves the array of elements divisible by 3 to a file named 'div_by_3.npy'.
 
-Running this script will produce the file div_by_3.npy containing the elements of the array that are divisible by 3.
+### Running this script will produce the file div_by_3.npy containing the elements of the array that are divisible by 3.
 
 
