@@ -1,1 +1,3 @@
-# HIPE_Experiment_2
+# EXPERIMENT 2 - Numerical Python (NumPy)
+
+
