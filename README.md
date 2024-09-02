@@ -35,9 +35,9 @@ Function: A = np.arange(1, 101).reshape(10, 10) ** 2
 
 Description: This function generates an array with numbers from 1-100, making it a 10x10 array with the '.reshape(10, 10)' function and squaring the elements with '** 2' to produce the array that is asked with the given problem. 
 
-Function: div_by_3 = A[A % 3 == 0]
+Function: div_by_3 = A[A % 3 == 0].reshape(3, 11) 
 
-Description: This function determines the divisible elements by 3 with the given array. It generates a boolean mask that, for elements divisible by 3, is 'True.' An array of those elements is obtained by applying this mask to 'A.'
+Description: This function determines the divisible elements by 3 with the given array. It generates a boolean mask that is' True for elements divisible by 3. An array of those elements is obtained by applying this mask to 'A.' The function '.rshape(3, 11)' organizes the array by reshaping it into a 3x11 array. 
 
 Function: np.save('div_by_3.npy', div_by_3) 
 
